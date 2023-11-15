@@ -1,0 +1,232 @@
+.respons_card {
+    border-style: solid;
+    box-shadow: 0 0 40px rgb(155, 155, 205);
+    border-radius: 20px;
+    font-size: large;
+    margin: 10px;
+    padding: 10px;
+    max-width: 280px;
+    min-height: 50px;
+}
+
+.main{
+    margin-left: 15pt;
+    margin-right: 15pt;
+}
+
+.response_cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-shadow: 0 0 10px rgba(223, 118, 255, 0.177), 0 0 20px rgba(255, 146, 248, 0.264);
+}
+
+.photo2101{
+    background: url(https://autoreview.ru/images/Article/1699/Article_169981_860_575.jpg) center no-repeat;
+    width: 210px;
+    height: 140px;
+    background-size: cover;
+    margin-right: 10px; 
+    border: 4px solid #000000;
+    border-radius: 10px;
+    padding: 3px 0px 0px 60px;
+}
+
+.photo2102{
+    background: url(https://resizer.mail.ru/p/37d0a7b4-6b9f-5d26-9e76-99bf8bed2d8f/AQABiku2_cLyCvsjQQCjX4VPS35wvr27Z8JSYwuGrV27sXsyQlUIWerHto1ejwlQuG1-yYXKd0VA16RyWQcNgpGElNM.jpg) center 78% no-repeat;
+    width: 210px;
+    height: 140px;
+    background-size: cover;
+    margin-right: 10px;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    padding: 3px 0px 0px 60px;
+}
+
+.photo2103{
+    background: url(https://carakoom.com/data/wall/787/63d0ecbd_medium.jpg) center 65% no-repeat;
+    width: 210px;
+    height: 140px;
+    background-size: cover;
+    margin-right: 10px;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    padding: 3px 0px 0px 60px;
+}
+
+.photo2104{
+    background: url(https://sun9-44.userapi.com/impg/HQYB4Nz3wawNF46DXEkFUINqZCdaAs1HFsz-0w/fonNOE8UVOY.jpg?size=604x453&quality=96&sign=2cb5b1df2bb245b55ff4ad4db2f975d5&c_uniq_tag=3ixrgZm2R9RFTqZq3uJIKPyPYtXCyHxqMxGVkbrUwEc&type=album) center 75% no-repeat;
+    width: 210px;
+    height: 140px;
+    background-size: cover;
+    margin-right: 10px;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    padding: 3px 0px 0px 60px;
+}
+
+.photo2105{
+    background: url(https://cs2.gtavicecity.ru/screenshots/9a0d4/2020-08/original/3cd72581761ffb5d7c54a3066242cfc83836a1d7/821193-GTAIV-2020-08-01-11-21-34-45.jpg) center 55% no-repeat;
+    width: 210px;
+    height: 140px;
+    background-size: cover;
+    margin-right: 10px;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    padding: 3px 0px 0px 60px;
+}
+
+.photo2106{
+    background: url(https://avatars.dzeninfra.ru/get-zen_doc/1533968/pub_5dd4f44b64338f5cf6eee391_5dd4f44d8f3e21637ee08f01/scale_1200) center 85% no-repeat;
+    width: 210px;
+    height: 140px;
+    background-size: cover;
+    margin-right: 10px;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    padding: 3px 0px 0px 60px;
+}
+
+.photo2107{
+    background: url(https://a.d-cd.net/5c98924s-1920.jpg) center 55% no-repeat;
+    width: 210px;
+    height: 140px;
+    background-size: cover;
+    margin-right: 10px;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    padding: 3px 0px 0px 60px;
+}
+
+.photo_titul {
+    background: url(https://lowdaily.ru/wp-content/uploads/2022/12/vaz-2103-diplomat-lowdaily-1-cover-1095x730.jpg) center no-repeat;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    margin-right: 10px; 
+    border: 4px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    animation: pulse 1.5s infinite;
+  }
+
+  .titul{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    flex-wrap: wrap;
+    justify-content: space;
+    box-shadow: 0 0 15px rgb(155, 155, 205);
+    border: 10px ;
+    background-image: linear-gradient(to bottom, #ffffff, #3d37ff, #fc2f2f);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+  }
+  
+  @keyframes pulse {
+    50% {
+      transform: scale(1.03);
+    }
+  }
+  
+  .frame{
+    box-shadow: 0px 0px 15px rgb(67, 67, 138);
+    width: auto;
+    height: auto;
+    padding: 00px;
+  }
+
+  .response_topical {
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-width: 100px;
+    box-shadow: 0 0 5px rgb(12, 12, 255);
+    background-color: #ffffff;
+}
+
+.center{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ /* Стили для кнопки */
+.effect-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 10px rgb(12, 255, 247);
+  }
+  
+  .effect-button:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #0a7efb54, #08bdeb, #0483f3);
+    border-radius: 5px;
+    z-index: -1;
+    transition: opacity 0.3s;
+  }
+  
+  .effect-button:hover {
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .effect-button:hover:before {
+    opacity: 0.7;
+  }
+  
+  .effect-button:active {
+    transform: scale(0.95);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    background-color: rgba(30, 131, 255, 0.16);
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 50px;
+}
+
+
+
+
+
+
+
+
